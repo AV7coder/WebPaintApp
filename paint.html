@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="res/js/Lib/p5.dom.min.js"></script>
+    <script src="res/js/Lib/p5.sound.min.js"></script>
+    <script src="res/js/Lib/p5.play.js"></script>
+    <script src="res/js/Lib/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    </script>
+    <script src="res/js/code/paint.js"></script>
+
+    <title>AV7PAINT- New</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class='text-center' style='color:rgb(15, 17, 110)'>AV7 PAINT</h1>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="index.html" class="text-center"><button class="btn btn-dark">🏠 Home</button>
+        </a>
+        <a href="instructions.html" class="text-center"><button class="btn btn-warning">📝 Instructions</button></a>
+        <hr>
+        <style>
+            canvas {
+                margin: auto;
+                display: block;
+                border: solid black;
+            }
+            
+            .on {
+                background-color: black;
+                color: green;
+                border-radius: 50%
+            }
+            
+            .off {
+                background-color: black;
+                color: red;
+                border-radius: 50%
+            }
+            
+            .save {
+                background-color: orange;
+            }
+            
+            input[type="color" i] {
+                appearance: auto;
+                width: 50px;
+                height: 23px;
+                border-width: 1px;
+                border-style: solid;
+            }
+        </style>
+        <button class="on" onclick="on()">On</button>
+        <button class="off" onclick=" off() ">Off</button>
+        <button class="save" onclick="save()">Save</button>
+
+</body>
+
+</html>
